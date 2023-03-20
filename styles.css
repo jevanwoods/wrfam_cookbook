@@ -1,6 +1,10 @@
 * {
+    box-sizing: border-box;
     margin: 0px;
-/*    border: solid black 1px; */
+    text-decoration: none;
+    list-style: none;
+/*    border: solid black 1px;*/
+
 }
 
 .pageContainer {
@@ -15,12 +19,25 @@
     background-color: coral;
     grid-column: 1/4;
     grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+}
+
+.titlePageHeader {
+    color: whitesmoke;
 }
 
 .sidebarBox {
     background-color: darkseagreen;
     grid-column: 1/2;
     grid-row: 2/4;
+}
+
+.sideMenuItem > a {
+    color: whitesmoke;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .bodyBox {
