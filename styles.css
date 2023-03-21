@@ -50,3 +50,10 @@
     grid-column: 2/4;
     grid-row: 2/4;
 }
+
+.blogBox {
+    background-color: darkgoldenrod;
+    height: 10vh;
+    width: 6vw;
+
+}
