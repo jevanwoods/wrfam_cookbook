@@ -49,11 +49,13 @@
     background-color:cadetblue;
     grid-column: 2/4;
     grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 2fr;
+    grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .blogBox {
     background-color: darkgoldenrod;
-    height: 10vh;
-    width: 6vw;
-
+    grid-column: 2/3;
+    grid-row: 2/6;
 }
