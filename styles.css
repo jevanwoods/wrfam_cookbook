@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0px;
     text-decoration: none;
-    list-style: none;
 /*    border: solid black 1px;*/
 
 }
@@ -37,6 +36,7 @@
 
 .sideMenuItem {
     padding-top: 10px;
+    list-style: none;
 }
 
 .sideMenuItem > a {
