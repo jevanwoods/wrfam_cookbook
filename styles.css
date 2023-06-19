@@ -22,8 +22,14 @@
     grid-column: 1/4;
     grid-row: 1/2;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding-left: 100px;
+}
+
+#newRecipeBtn {
+    margin-right: 200px;
+    background-color: royalblue;
 }
 
 .titlePageHeader {
