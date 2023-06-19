@@ -72,3 +72,14 @@
 .footer {
     color:blueviolet;
 }
+
+.newRecipeInput {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 800px;
+    width: 1200px;
+    background-color: steelblue;
+}

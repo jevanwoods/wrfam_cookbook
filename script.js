@@ -1,3 +1,7 @@
 function newRecipe () {
-    alert("This is a test.");
+    document.getElementById("newRecipeInput").style.display = "block";
 };
+
+function closeNewRecipeForm () {
+    document.getElementById("newRecipeInput").style.display = "none"
+}
