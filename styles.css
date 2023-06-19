@@ -83,3 +83,10 @@
     width: 1200px;
     background-color: steelblue;
 }
+
+.formHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 25px;
+}
