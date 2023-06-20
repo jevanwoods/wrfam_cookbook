@@ -5,3 +5,7 @@ function newRecipe () {
 function closeNewRecipeForm () {
     document.getElementById("newRecipeInput").style.display = "none"
 }
+
+function submitNewRecipe() {
+    console.log("Test");
+}
