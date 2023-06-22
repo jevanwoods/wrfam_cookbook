@@ -3,8 +3,9 @@
     margin: 0px;
     text-decoration: none;
     --primaryColor: darkseagreen;
-    --secondaryColor: whitesmoke;
-    --tertiaryColor: cadetblue;
+    --secondaryColor: cadetblue;
+    --tertiaryColor: coral;
+    --quartinaryColor: whitesmoke;
 /*    border: solid black 1px;*/
 
 }
@@ -18,7 +19,7 @@
 }
 
 .headerBox {
-    background-color: coral;
+    background-color: var(--primaryColor);
     grid-column: 1/4;
     grid-row: 1/2;
     display: flex;
@@ -37,7 +38,7 @@
 }
 
 .sidebarBox {
-    background-color: darkseagreen;
+    background-color: var(--secondaryColor);
     grid-column: 1/2;
     grid-row: 2/4;
     padding-top: 25px;
@@ -55,7 +56,7 @@
 }
 
 .bodyBox {
-    background-color:cadetblue;
+    background-color: var(--tertiaryColor);
     grid-column: 2/4;
     grid-row: 2/4;
     display: grid;
